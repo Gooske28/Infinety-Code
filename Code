@@ -1,0 +1,6 @@
+while ($true) {
+    $characters = (48..57) + (65..90) + (97..122) + (33..47) + (58..64) + (91..96) + (123..126)
+    $RandomString = -join (Get-Random -InputObject $characters -Count 100 | ForEach-Object {[char]$_})
+    Write-Output $RandomString
+Start-Sleep -Milliseconds 25
+}
