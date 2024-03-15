@@ -1,1 +1,1 @@
-Ik heb een code gemaakt die oneindige tekens schrijft in Windows Powershell. Kopieer één van de twee code's en plak ze in Windows Powershell.
+I created a code that writes infinite characters in Windows Powershell. Copy either code and paste it into Windows Powershell.
